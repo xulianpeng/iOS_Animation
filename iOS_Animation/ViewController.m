@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Masonary.h"
 @interface ViewController ()
 {
     UIView *parentView;
@@ -38,11 +38,14 @@
     
     
     testLabel1 = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 40, 30)];
-//    testLabel1 = [[UILabel alloc]init];
-//    testLabel1.frame = CGRectMake(100, 0, 100, 50);
     testLabel1.backgroundColor = [UIColor magentaColor];
     [parentView addSubview:testLabel1];
     
+    
+    UIButton *bt = [UIButton buttonWithType:UIButtonTypeCustom];
+    bt.
+#pragma mark 基本用法1: 一般舍弃
+     
     /*
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDelay:1];
@@ -50,34 +53,37 @@
     [UIView setAnimationDuration:5];
     [UIView setAnimationWillStartSelector:@selector(stopLabel)];//动画开始前执行的方法
     [UIView setAnimationDidStopSelector:@selector(stopLabe2)];//动画结束后执行的方法
+    // stopLabel,stopLabe2 都是瞬时执行完毕 不参与动画
+    
 //    [UIView setAnimationRepeatCount:1];//默认初始值为1,设为0或1是一样的效果,动画只会进行一次
-//    [UIView setAnimationRepeatAutoreverses:YES];//置为YES后,动画会按照设置的路线原路返回,否则是直线返回且速度很快.
+    [UIView setAnimationRepeatAutoreverses:YES];//置为YES后,动画会按照设置的路线原路返回,否则是直线返回且速度很快.
 //    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
 //    [UIView setAnimationsEnabled:YES];
+    //最终希望达到的动画效果 y坐标变化 且有放大的效果.
     testLabel1.frame = CGRectMake(0, 100, 80, 60);
     
 //    [UIView setAnimationTransition:UIViewAnimationTransitionCurlDown forView:testLabel1 cache:YES];
 //    [self.view exchangeSubviewAtIndex:1 withSubviewAtIndex:0];
     [UIView commitAnimations];
     //小结:显然这种动画方式 写法很费事 代码多 且无法实现放大的效果 因为其代码执行是顺序执行.目前只实现位移的效果 只改变x y 或同时改变xy.
-    
     */
     
-    //UIViewAnimation Block动画
-    /*
+    
+#pragma mark 基本用法2: UIViewAnimation 最简单的Block动画
+    
     [UIView animateWithDuration:2 animations:^{
         testLabel1.frame = CGRectMake(300 - 80, 200 - 60, 80, 60) ;
     }];
 
-    [UIView animateWithDuration:2 animations:^{
-        testLabel1.frame = CGRectMake(300 - 80, 200 - 60, 80, 60) ;
-    } completion:^(BOOL finished) {
-//        testLabel1.frame = CGRectMake(300 - 80, 0, 80, 60) ;
-        
-    }];
-    */
+//    [UIView animateWithDuration:2 animations:^{
+//        testLabel1.frame = CGRectMake(300 - 80, 200 - 60, 80, 60) ;
+//    } completion:^(BOOL finished) {
+//        
+//        
+//    }];
     
-    /*
+    
+    
     //UIViewAnimationOptionRepeat //单一则只是重复动画的过程
     //UIViewAnimationOptionAutoreverse //单一 重复动画的反过程
     //以上两者合并 则实现动画重复
@@ -86,7 +92,7 @@
     } completion:^(BOOL finished) {
         
     }];
-    */
+    
     
     /*
     //动画 放大 后消失
@@ -160,6 +166,7 @@
                               }];
     */
 
+    /*
     [UIView animateKeyframesWithDuration:5
                                    delay:0.0
                                  options:(UIViewKeyframeAnimationOptionAllowUserInteraction)
@@ -182,43 +189,18 @@
 //                                                                    testLabel1.backgroundColor = [UIColor greenColor];
                                                                     testLabel1.center = CGPointMake(80, 80);
                                                                 }];
+     
+     
+     
                                   
-                                  /*
-                                    [UIView addKeyframeWithRelativeStartTime:2/5
-                                                                                            relativeDuration:1/5
-                                                                                                  animations:^{
-                                  //                                      testLabel1.frame = CGRectMake(50, 0, 40, 30);
-                                                                                                      testLabel1.backgroundColor = [UIColor grayColor];
-                                                                                                      testLabel1.center = CGPointMake(100, 80);
-                                                                                                  }];
-                                  
-                                  
-                                    [UIView addKeyframeWithRelativeStartTime:3/5
-                                                                                            relativeDuration:1/5
-                                                                                                  animations:^{
-                                  //                                      testLabel1.frame = CGRectMake(100, 0, 40, 30);
-                                                                                                      testLabel1.backgroundColor = [UIColor yellowColor];
-                                                                                                      testLabel1.center = CGPointMake(100, 10);
-                                                                                                  }];
-    
-                                  
-                                    [UIView addKeyframeWithRelativeStartTime:4/5
-                                                                                            relativeDuration:1/5
-                                                                                                  animations:^{
-                                  //                                      testLabel1.frame = CGRectMake(100, 200, 40, 30);
-                                                                                                      testLabel1.backgroundColor = [UIColor darkGrayColor];
-                                                                                                      testLabel1.center = CGPointMake(150, 10);
-                                                                    }];
-                                   */
-                                  
-                                  
-                                  
-                              } completion:^(BOOL finished) {
+                            } completion:^(BOOL finished) {
                                   NSLog(@"结束了");
                               }];
     
     
     //上面这个动画本来想实现画线的效果 但是没有实现
+    */
+    
     /*
     [UIView animateKeyframesWithDuration:2 delay:0 options:UIViewKeyframeAnimationOptionCalculationModeCubic animations:^{
         
@@ -230,12 +212,15 @@
     }];
     */
     
+    
+    
     /*
-    //这还是放大的效果
+     * 效果:  testLabel 逐渐放大 然后逐渐透明 最终移除
+     */
+    /*
     [UIView animateWithDuration:1.25 animations:^{
         CGAffineTransform newTransform = CGAffineTransformMakeScale(1.8, 1.8);
         [testLabel1 setTransform:newTransform];
-//        [secondImageView setTransform:newTransform];
     }
                      completion:^(BOOL finished){
                          [UIView animateWithDuration:1.2 animations:^{
@@ -245,7 +230,7 @@
                                  [testLabel1 removeFromSuperview];
                          }];
                      }];
-     */
+    */
 }
 - (void)stopLabel
 {
