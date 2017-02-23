@@ -33,6 +33,17 @@
 		07030F661E4C4FCC00B24248 /* nn-8.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 07030F591E4C4FCC00B24248 /* nn-8.tiff */; };
 		07030F671E4C4FCC00B24248 /* nn-9.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 07030F5A1E4C4FCC00B24248 /* nn-9.tiff */; };
 		07030F6A1E4D6BF600B24248 /* CoreAnimationVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07030F691E4D6BF600B24248 /* CoreAnimationVController.m */; };
+		073301C31E5AC61100A87D52 /* CATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073301C21E5AC61100A87D52 /* CATransitionViewController.m */; };
+		073301C61E5ADA1E00A87D52 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 073301C41E5ADA1E00A87D52 /* 01.jpg */; };
+		073301C71E5ADA1E00A87D52 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 073301C51E5ADA1E00A87D52 /* 02.jpg */; };
+		073301D91E5D67C500A87D52 /* liziAnimationVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073301D81E5D67C500A87D52 /* liziAnimationVController.m */; };
+		073301E31E5D699100A87D52 /* DazFire.png in Resources */ = {isa = PBXBuildFile; fileRef = 073301DC1E5D699100A87D52 /* DazFire.png */; };
+		073301E41E5D699100A87D52 /* DazFlake.png in Resources */ = {isa = PBXBuildFile; fileRef = 073301DD1E5D699100A87D52 /* DazFlake.png */; };
+		073301E51E5D699100A87D52 /* DazHeart.png in Resources */ = {isa = PBXBuildFile; fileRef = 073301DE1E5D699100A87D52 /* DazHeart.png */; };
+		073301E61E5D699100A87D52 /* DazRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 073301DF1E5D699100A87D52 /* DazRing.png */; };
+		073301E71E5D699100A87D52 /* DazSmoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 073301E01E5D699100A87D52 /* DazSmoke.png */; };
+		073301E81E5D699100A87D52 /* DazStarOutline.png in Resources */ = {isa = PBXBuildFile; fileRef = 073301E11E5D699100A87D52 /* DazStarOutline.png */; };
+		073301E91E5D699100A87D52 /* DazTriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 073301E21E5D699100A87D52 /* DazTriangle.png */; };
 		8973C9081DF0070E0076BFEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8973C9071DF0070E0076BFEE /* main.m */; };
 		8973C90B1DF0070E0076BFEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8973C90A1DF0070E0076BFEE /* AppDelegate.m */; };
 		8973C90E1DF0070E0076BFEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8973C90D1DF0070E0076BFEE /* ViewController.m */; };
@@ -103,6 +114,20 @@
 		07030F5A1E4C4FCC00B24248 /* nn-9.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "nn-9.tiff"; sourceTree = "<group>"; };
 		07030F681E4D6BF600B24248 /* CoreAnimationVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationVController.h; sourceTree = "<group>"; };
 		07030F691E4D6BF600B24248 /* CoreAnimationVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationVController.m; sourceTree = "<group>"; };
+		073301C11E5AC61100A87D52 /* CATransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionViewController.h; sourceTree = "<group>"; };
+		073301C21E5AC61100A87D52 /* CATransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionViewController.m; sourceTree = "<group>"; };
+		073301C41E5ADA1E00A87D52 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 01.jpg; sourceTree = "<group>"; };
+		073301C51E5ADA1E00A87D52 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 02.jpg; sourceTree = "<group>"; };
+		073301C81E5AF61D00A87D52 /* iOS_Animation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_Animation-Bridging-Header.h"; sourceTree = "<group>"; };
+		073301D71E5D67C500A87D52 /* liziAnimationVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = liziAnimationVController.h; sourceTree = "<group>"; };
+		073301D81E5D67C500A87D52 /* liziAnimationVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = liziAnimationVController.m; sourceTree = "<group>"; };
+		073301DC1E5D699100A87D52 /* DazFire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazFire.png; sourceTree = "<group>"; };
+		073301DD1E5D699100A87D52 /* DazFlake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazFlake.png; sourceTree = "<group>"; };
+		073301DE1E5D699100A87D52 /* DazHeart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazHeart.png; sourceTree = "<group>"; };
+		073301DF1E5D699100A87D52 /* DazRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazRing.png; sourceTree = "<group>"; };
+		073301E01E5D699100A87D52 /* DazSmoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazSmoke.png; sourceTree = "<group>"; };
+		073301E11E5D699100A87D52 /* DazStarOutline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazStarOutline.png; sourceTree = "<group>"; };
+		073301E21E5D699100A87D52 /* DazTriangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazTriangle.png; sourceTree = "<group>"; };
 		8973C9031DF0070E0076BFEE /* iOS_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8973C9071DF0070E0076BFEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8973C9091DF0070E0076BFEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -199,6 +224,30 @@
 			path = nn;
 			sourceTree = "<group>";
 		};
+		073301DA1E5D67DB00A87D52 /* 粒子动画 */ = {
+			isa = PBXGroup;
+			children = (
+				073301DB1E5D695900A87D52 /* lizi动画雪花 烟花 火焰图片 */,
+				073301D71E5D67C500A87D52 /* liziAnimationVController.h */,
+				073301D81E5D67C500A87D52 /* liziAnimationVController.m */,
+			);
+			name = "粒子动画";
+			sourceTree = "<group>";
+		};
+		073301DB1E5D695900A87D52 /* lizi动画雪花 烟花 火焰图片 */ = {
+			isa = PBXGroup;
+			children = (
+				073301DC1E5D699100A87D52 /* DazFire.png */,
+				073301DD1E5D699100A87D52 /* DazFlake.png */,
+				073301DE1E5D699100A87D52 /* DazHeart.png */,
+				073301DF1E5D699100A87D52 /* DazRing.png */,
+				073301E01E5D699100A87D52 /* DazSmoke.png */,
+				073301E11E5D699100A87D52 /* DazStarOutline.png */,
+				073301E21E5D699100A87D52 /* DazTriangle.png */,
+			);
+			name = "lizi动画雪花 烟花 火焰图片";
+			sourceTree = "<group>";
+		};
 		8973C8FA1DF0070E0076BFEE = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +272,8 @@
 		8973C9051DF0070E0076BFEE /* iOS_Animation */ = {
 			isa = PBXGroup;
 			children = (
+				073301C41E5ADA1E00A87D52 /* 01.jpg */,
+				073301C51E5ADA1E00A87D52 /* 02.jpg */,
 				07030F4D1E4C4FCC00B24248 /* nn */,
 				8973C9091DF0070E0076BFEE /* AppDelegate.h */,
 				8973C90A1DF0070E0076BFEE /* AppDelegate.m */,
@@ -230,12 +281,16 @@
 				8973C90D1DF0070E0076BFEE /* ViewController.m */,
 				07030F681E4D6BF600B24248 /* CoreAnimationVController.h */,
 				07030F691E4D6BF600B24248 /* CoreAnimationVController.m */,
+				073301C11E5AC61100A87D52 /* CATransitionViewController.h */,
+				073301C21E5AC61100A87D52 /* CATransitionViewController.m */,
+				073301DA1E5D67DB00A87D52 /* 粒子动画 */,
 				8973C90F1DF0070E0076BFEE /* Main.storyboard */,
 				8973C9121DF0070E0076BFEE /* Assets.xcassets */,
 				07030F4B1E4C4F4B00B24248 /* mm.gif */,
 				8973C9141DF0070E0076BFEE /* LaunchScreen.storyboard */,
 				8973C9171DF0070E0076BFEE /* Info.plist */,
 				8973C9061DF0070E0076BFEE /* Supporting Files */,
+				073301C81E5AF61D00A87D52 /* iOS_Animation-Bridging-Header.h */,
 			);
 			path = iOS_Animation;
 			sourceTree = "<group>";
@@ -334,6 +389,7 @@
 					8973C9021DF0070E0076BFEE = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = R7FLL89AQ2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					8973C91B1DF0070E0076BFEE = {
@@ -375,18 +431,27 @@
 			files = (
 				07030F4C1E4C4F4B00B24248 /* mm.gif in Resources */,
 				07030F5B1E4C4FCC00B24248 /* nn-10.tiff in Resources */,
+				073301E81E5D699100A87D52 /* DazStarOutline.png in Resources */,
+				073301E71E5D699100A87D52 /* DazSmoke.png in Resources */,
 				07030F651E4C4FCC00B24248 /* nn-7.tiff in Resources */,
+				073301E41E5D699100A87D52 /* DazFlake.png in Resources */,
 				07030F401E4B08D600B24248 /* Info.plist in Resources */,
+				073301E61E5D699100A87D52 /* DazRing.png in Resources */,
 				07030F621E4C4FCC00B24248 /* nn-4.tiff in Resources */,
+				073301E51E5D699100A87D52 /* DazHeart.png in Resources */,
 				8973C9161DF0070E0076BFEE /* LaunchScreen.storyboard in Resources */,
 				07030F671E4C4FCC00B24248 /* nn-9.tiff in Resources */,
 				07030F601E4C4FCC00B24248 /* nn-2.tiff in Resources */,
 				07030F5C1E4C4FCC00B24248 /* nn-11.tiff in Resources */,
+				073301E31E5D699100A87D52 /* DazFire.png in Resources */,
 				07030F661E4C4FCC00B24248 /* nn-8.tiff in Resources */,
 				07030F611E4C4FCC00B24248 /* nn-3.tiff in Resources */,
 				8973C9131DF0070E0076BFEE /* Assets.xcassets in Resources */,
 				07030F5E1E4C4FCC00B24248 /* nn-13.tiff in Resources */,
+				073301E91E5D699100A87D52 /* DazTriangle.png in Resources */,
+				073301C71E5ADA1E00A87D52 /* 02.jpg in Resources */,
 				8973C9111DF0070E0076BFEE /* Main.storyboard in Resources */,
+				073301C61E5ADA1E00A87D52 /* 01.jpg in Resources */,
 				07030F641E4C4FCC00B24248 /* nn-6.tiff in Resources */,
 				07030F5F1E4C4FCC00B24248 /* nn-1.tiff in Resources */,
 				07030F631E4C4FCC00B24248 /* nn-5.tiff in Resources */,
@@ -422,6 +487,7 @@
 				8973C90E1DF0070E0076BFEE /* ViewController.m in Sources */,
 				8973C90B1DF0070E0076BFEE /* AppDelegate.m in Sources */,
 				07030F441E4B08D600B24248 /* MASLayoutConstraint.m in Sources */,
+				073301D91E5D67C500A87D52 /* liziAnimationVController.m in Sources */,
 				8973C9081DF0070E0076BFEE /* main.m in Sources */,
 				07030F4A1E4B08D600B24248 /* ViewController+MASAdditions.m in Sources */,
 				07030F491E4B08D600B24248 /* View+MASAdditions.m in Sources */,
@@ -429,6 +495,7 @@
 				07030F421E4B08D600B24248 /* MASConstraint.m in Sources */,
 				07030F6A1E4D6BF600B24248 /* CoreAnimationVController.m in Sources */,
 				07030F431E4B08D600B24248 /* MASConstraintMaker.m in Sources */,
+				073301C31E5AC61100A87D52 /* CATransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,11 +644,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = R7FLL89AQ2;
 				INFOPLIST_FILE = iOS_Animation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "XLP.iOS-Animation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Animation/iOS_Animation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -589,11 +660,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = R7FLL89AQ2;
 				INFOPLIST_FILE = iOS_Animation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "XLP.iOS-Animation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Animation/iOS_Animation-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

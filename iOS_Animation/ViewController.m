@@ -9,12 +9,18 @@
 #import "ViewController.h"
 #import "Masonry.h"
 #import "CoreAnimationVController.h"
+#import "CATransitionViewController.h"
+#import "liziAnimationVController.h"
 @interface ViewController ()
 {
     UIView *parentView;
     UILabel *testLabel1;
     UIImageView *testImageView;
     UIActivityIndicatorView *testIndicatorView;
+    
+    UIButton *CATransitionButton;
+    
+    UIButton *liziButton;
 }
 @end
 
@@ -39,6 +45,7 @@
     parentView = [[UIView alloc]initWithFrame:CGRectMake(10, 300, 300, 200)];
     parentView.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:parentView];
+    
     
     
     testLabel1 = [[UILabel alloc]initWithFrame:CGRectMake(160, 0, 40, 30)];
@@ -94,6 +101,34 @@
         make.top.mas_equalTo(resetBt);
         make.width.mas_equalTo(50);
         make.height.mas_equalTo(40);
+    }];
+    
+    CATransitionButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:CATransitionButton];
+    [CATransitionButton setTitle:@"CATransitionButton" forState:UIControlStateNormal];
+    [CATransitionButton addTarget:self action:@selector(jumpToCATransitionAnimation:) forControlEvents:UIControlEventTouchUpInside];
+    CATransitionButton.backgroundColor = [UIColor greenColor];
+    [CATransitionButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(parentView.mas_bottom).offset(10);
+        make.left.mas_equalTo(20);
+        make.width.mas_equalTo(200);
+        make.height.mas_equalTo(50);
+        
+        
+    }];
+#pragma mark - 粒子动画 入口按钮
+    liziButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:liziButton];
+    [liziButton setTitle:@"粒子动画入口" forState:UIControlStateNormal];
+    [liziButton addTarget:self action:@selector(jumpToLiziAnimation:) forControlEvents:UIControlEventTouchUpInside];
+    liziButton.backgroundColor = [UIColor greenColor];
+    [liziButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(CATransitionButton.mas_top);
+        make.left.mas_equalTo(CATransitionButton.mas_right).offset(10);
+        make.width.mas_equalTo(100);
+        make.height.mas_equalTo(50);
+        
+        
     }];
 #pragma mark: 分类2- imageview的帧动画
     /*
@@ -166,6 +201,8 @@
     [UIView commitAnimations];
     //小结:显然这种动画方式 写法很费事 代码多 且无法实现放大的效果 因为其代码执行是顺序执行.目前只实现位移的效果 只改变x y 或同时改变xy.
     */
+    
+//    [self liziaNIMATION];
     
 }
 - (void)stopLabel
@@ -356,6 +393,38 @@
     CoreAnimationVController *vc = [[CoreAnimationVController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
 }
+- (void)jumpToCATransitionAnimation:(UIButton *)sender{
+#pragma mark - 在CATransition动画 加入 试图跳转
+    //创建CATransition对象
+    CATransition *animation = [CATransition animation];
+    //设置运动时间
+    animation.duration = 0.5;
+    //设置运动type
+    animation.type = @"cube";
+    animation.subtype = kCATransitionFromLeft;//
+//    animation.autoreverses = YES;
+//    animation.fillMode = kCAFillModeForwards;
+//    animation.repeatCount = 2;
+    //设置运动速度
+    animation.timingFunction = UIViewAnimationOptionCurveEaseInOut;
+    
+    /// 在CATransition动画 加入 试图跳转
+    CATransitionViewController *vc = [[CATransitionViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:NO];
+    [self.navigationController.view.layer addAnimation:animation forKey:@"111"];
+}
+- (void)fadeEvernote{
+    
+//    CollectionViewController *vc = [[CollectionViewController alloc]init];
+    
+//    [self.navigationController pushViewController:vc animated:YES];
+}
+- (void)jumpToLiziAnimation:(UIButton *)sender{
+    liziAnimationVController *liziVC = [[liziAnimationVController alloc]init];
+    [self.navigationController pushViewController:liziVC animated:YES];
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
