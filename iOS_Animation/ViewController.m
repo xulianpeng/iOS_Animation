@@ -12,6 +12,7 @@
 #import "CATransitionViewController.h"
 #import "liziAnimationVController.h"
 #import "HighTableViewController.h"
+#import "FirstViewController.h"
 @interface ViewController ()
 {
     UIView *parentView;
@@ -22,6 +23,7 @@
     UIButton *CATransitionButton;
     
     UIButton *liziButton;
+    UIButton *liziButton1;
 }
 @end
 
@@ -61,7 +63,7 @@
     [bt mas_makeConstraints:^(MASConstraintMaker *make) {
         
         make.left.equalTo(self.view).offset(30);
-        make.top.mas_equalTo(50);
+        make.top.mas_equalTo(64);
         make.width.mas_equalTo(50);
         make.height.mas_equalTo(40);
     }];
@@ -121,6 +123,7 @@
     liziButton = [UIButton buttonWithType:UIButtonTypeCustom];
     [self.view addSubview:liziButton];
     [liziButton setTitle:@"粒子动画入口" forState:UIControlStateNormal];
+    liziButton.titleLabel.adjustsFontSizeToFitWidth = YES;
     [liziButton addTarget:self action:@selector(jumpToLiziAnimation:) forControlEvents:UIControlEventTouchUpInside];
     liziButton.backgroundColor = [UIColor greenColor];
     [liziButton mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -128,6 +131,20 @@
         make.left.mas_equalTo(CATransitionButton.mas_right).offset(10);
         make.width.mas_equalTo(100);
         make.height.mas_equalTo(50);
+        
+        
+    }];
+    liziButton1 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:liziButton1];
+    liziButton1.titleLabel.adjustsFontSizeToFitWidth = YES;
+    [liziButton1 setTitle:@"粒子动画入口" forState:UIControlStateNormal];
+    [liziButton1 addTarget:self action:@selector(jumpToLiziAnimation1:) forControlEvents:UIControlEventTouchUpInside];
+    liziButton1.backgroundColor = [UIColor greenColor];
+    [liziButton1 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(liziButton.mas_bottom).offset(5);
+        make.right.mas_equalTo(liziButton);
+        make.width.mas_equalTo(liziButton);
+        make.height.mas_equalTo(liziButton);
         
         
     }];
@@ -436,8 +453,13 @@
     
 //    [self.navigationController pushViewController:vc animated:YES];
 }
+#pragma mark - 粒子动画入口
 - (void)jumpToLiziAnimation:(UIButton *)sender{
     liziAnimationVController *liziVC = [[liziAnimationVController alloc]init];
+    [self.navigationController pushViewController:liziVC animated:YES];
+}
+- (void)jumpToLiziAnimation1:(UIButton *)sender{
+    FirstViewController *liziVC = [[FirstViewController alloc]init];
     [self.navigationController pushViewController:liziVC animated:YES];
 }
 - (void)jumpToHighTable:(UIButton *)sender{

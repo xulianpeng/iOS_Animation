@@ -44,6 +44,30 @@
 		073301E71E5D699100A87D52 /* DazSmoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 073301E01E5D699100A87D52 /* DazSmoke.png */; };
 		073301E81E5D699100A87D52 /* DazStarOutline.png in Resources */ = {isa = PBXBuildFile; fileRef = 073301E11E5D699100A87D52 /* DazStarOutline.png */; };
 		073301E91E5D699100A87D52 /* DazTriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 073301E21E5D699100A87D52 /* DazTriangle.png */; };
+		07956E451E6D369D00E8D22D /* FFRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E321E6D369D00E8D22D /* FFRing.png */; };
+		07956E461E6D369D00E8D22D /* FFTspark.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E331E6D369D00E8D22D /* FFTspark.png */; };
+		07956E471E6D369E00E8D22D /* ic_menu_bluepig.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E341E6D369D00E8D22D /* ic_menu_bluepig.png */; };
+		07956E481E6D369E00E8D22D /* ic_menu_bluepig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E351E6D369D00E8D22D /* ic_menu_bluepig2.png */; };
+		07956E491E6D369E00E8D22D /* ic_menu_greenpig.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E361E6D369D00E8D22D /* ic_menu_greenpig.png */; };
+		07956E4A1E6D369E00E8D22D /* ic_menu_greenpig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E371E6D369D00E8D22D /* ic_menu_greenpig2.png */; };
+		07956E4B1E6D369E00E8D22D /* ic_menu_pinkpig.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E381E6D369D00E8D22D /* ic_menu_pinkpig.png */; };
+		07956E4C1E6D369E00E8D22D /* ic_menu_pinkpig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E391E6D369D00E8D22D /* ic_menu_pinkpig2.png */; };
+		07956E4D1E6D369E00E8D22D /* ic_menu_purplepig.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E3A1E6D369D00E8D22D /* ic_menu_purplepig.png */; };
+		07956E4E1E6D369E00E8D22D /* ic_menu_purplepig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E3B1E6D369D00E8D22D /* ic_menu_purplepig2.png */; };
+		07956E4F1E6D369E00E8D22D /* ic_menu_yellowpig.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E3C1E6D369D00E8D22D /* ic_menu_yellowpig.png */; };
+		07956E501E6D369E00E8D22D /* ic_menu_yellowpig2.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E3D1E6D369D00E8D22D /* ic_menu_yellowpig2.png */; };
+		07956E511E6D369E00E8D22D /* leftShoot.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E3E1E6D369D00E8D22D /* leftShoot.png */; };
+		07956E521E6D369E00E8D22D /* love@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E3F1E6D369D00E8D22D /* love@2x.png */; };
+		07956E531E6D369E00E8D22D /* love@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E401E6D369D00E8D22D /* love@3x.png */; };
+		07956E541E6D369E00E8D22D /* rightShoot.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E411E6D369D00E8D22D /* rightShoot.png */; };
+		07956E551E6D369E00E8D22D /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 07956E421E6D369D00E8D22D /* star.png */; };
+		07956E561E6D369E00E8D22D /* UIButton+Bubbling.m in Sources */ = {isa = PBXBuildFile; fileRef = 07956E441E6D369D00E8D22D /* UIButton+Bubbling.m */; };
+		07956E611E6D36D400E8D22D /* DazViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07956E581E6D36D400E8D22D /* DazViewController.m */; };
+		07956E621E6D36D400E8D22D /* DropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07956E5A1E6D36D400E8D22D /* DropViewController.m */; };
+		07956E631E6D36D400E8D22D /* GiftEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07956E5C1E6D36D400E8D22D /* GiftEffectViewController.m */; };
+		07956E641E6D36D400E8D22D /* SnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07956E5E1E6D36D400E8D22D /* SnowViewController.m */; };
+		07956E651E6D36D400E8D22D /* SprayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07956E601E6D36D400E8D22D /* SprayViewController.m */; };
+		07956E681E6D36F800E8D22D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07956E671E6D36F800E8D22D /* FirstViewController.m */; };
 		07C8237E1E67B310006EB6B1 /* HighTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C8237D1E67B310006EB6B1 /* HighTableViewController.m */; };
 		07C823821E67B5AA006EB6B1 /* OneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C823811E67B5AA006EB6B1 /* OneCell.m */; };
 		07C823851E67B5B7006EB6B1 /* TwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C823841E67B5B7006EB6B1 /* TwoCell.m */; };
@@ -134,6 +158,37 @@
 		073301E01E5D699100A87D52 /* DazSmoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazSmoke.png; sourceTree = "<group>"; };
 		073301E11E5D699100A87D52 /* DazStarOutline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazStarOutline.png; sourceTree = "<group>"; };
 		073301E21E5D699100A87D52 /* DazTriangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazTriangle.png; sourceTree = "<group>"; };
+		07956E321E6D369D00E8D22D /* FFRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFRing.png; sourceTree = "<group>"; };
+		07956E331E6D369D00E8D22D /* FFTspark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFTspark.png; sourceTree = "<group>"; };
+		07956E341E6D369D00E8D22D /* ic_menu_bluepig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_bluepig.png; sourceTree = "<group>"; };
+		07956E351E6D369D00E8D22D /* ic_menu_bluepig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_bluepig2.png; sourceTree = "<group>"; };
+		07956E361E6D369D00E8D22D /* ic_menu_greenpig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_greenpig.png; sourceTree = "<group>"; };
+		07956E371E6D369D00E8D22D /* ic_menu_greenpig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_greenpig2.png; sourceTree = "<group>"; };
+		07956E381E6D369D00E8D22D /* ic_menu_pinkpig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_pinkpig.png; sourceTree = "<group>"; };
+		07956E391E6D369D00E8D22D /* ic_menu_pinkpig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_pinkpig2.png; sourceTree = "<group>"; };
+		07956E3A1E6D369D00E8D22D /* ic_menu_purplepig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_purplepig.png; sourceTree = "<group>"; };
+		07956E3B1E6D369D00E8D22D /* ic_menu_purplepig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_purplepig2.png; sourceTree = "<group>"; };
+		07956E3C1E6D369D00E8D22D /* ic_menu_yellowpig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_yellowpig.png; sourceTree = "<group>"; };
+		07956E3D1E6D369D00E8D22D /* ic_menu_yellowpig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_yellowpig2.png; sourceTree = "<group>"; };
+		07956E3E1E6D369D00E8D22D /* leftShoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftShoot.png; sourceTree = "<group>"; };
+		07956E3F1E6D369D00E8D22D /* love@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love@2x.png"; sourceTree = "<group>"; };
+		07956E401E6D369D00E8D22D /* love@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love@3x.png"; sourceTree = "<group>"; };
+		07956E411E6D369D00E8D22D /* rightShoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightShoot.png; sourceTree = "<group>"; };
+		07956E421E6D369D00E8D22D /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		07956E431E6D369D00E8D22D /* UIButton+Bubbling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bubbling.h"; sourceTree = "<group>"; };
+		07956E441E6D369D00E8D22D /* UIButton+Bubbling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bubbling.m"; sourceTree = "<group>"; };
+		07956E571E6D36D400E8D22D /* DazViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DazViewController.h; sourceTree = "<group>"; };
+		07956E581E6D36D400E8D22D /* DazViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DazViewController.m; sourceTree = "<group>"; };
+		07956E591E6D36D400E8D22D /* DropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropViewController.h; sourceTree = "<group>"; };
+		07956E5A1E6D36D400E8D22D /* DropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropViewController.m; sourceTree = "<group>"; };
+		07956E5B1E6D36D400E8D22D /* GiftEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftEffectViewController.h; sourceTree = "<group>"; };
+		07956E5C1E6D36D400E8D22D /* GiftEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftEffectViewController.m; sourceTree = "<group>"; };
+		07956E5D1E6D36D400E8D22D /* SnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowViewController.h; sourceTree = "<group>"; };
+		07956E5E1E6D36D400E8D22D /* SnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowViewController.m; sourceTree = "<group>"; };
+		07956E5F1E6D36D400E8D22D /* SprayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SprayViewController.h; sourceTree = "<group>"; };
+		07956E601E6D36D400E8D22D /* SprayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SprayViewController.m; sourceTree = "<group>"; };
+		07956E661E6D36F800E8D22D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		07956E671E6D36F800E8D22D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		07C8237C1E67B310006EB6B1 /* HighTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighTableViewController.h; sourceTree = "<group>"; };
 		07C8237D1E67B310006EB6B1 /* HighTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighTableViewController.m; sourceTree = "<group>"; };
 		07C823801E67B5AA006EB6B1 /* OneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneCell.h; sourceTree = "<group>"; };
@@ -245,6 +300,7 @@
 		073301DA1E5D67DB00A87D52 /* 粒子动画 */ = {
 			isa = PBXGroup;
 			children = (
+				07956E301E6D366700E8D22D /* 别人的 */,
 				073301DB1E5D695900A87D52 /* lizi动画雪花 烟花 火焰图片 */,
 				073301D71E5D67C500A87D52 /* liziAnimationVController.h */,
 				073301D81E5D67C500A87D52 /* liziAnimationVController.m */,
@@ -264,6 +320,60 @@
 				073301E21E5D699100A87D52 /* DazTriangle.png */,
 			);
 			name = "lizi动画雪花 烟花 火焰图片";
+			sourceTree = "<group>";
+		};
+		07956E301E6D366700E8D22D /* 别人的 */ = {
+			isa = PBXGroup;
+			children = (
+				07956E691E6D377600E8D22D /* TheResource */,
+				07956E571E6D36D400E8D22D /* DazViewController.h */,
+				07956E581E6D36D400E8D22D /* DazViewController.m */,
+				07956E591E6D36D400E8D22D /* DropViewController.h */,
+				07956E5A1E6D36D400E8D22D /* DropViewController.m */,
+				07956E5B1E6D36D400E8D22D /* GiftEffectViewController.h */,
+				07956E5C1E6D36D400E8D22D /* GiftEffectViewController.m */,
+				07956E5D1E6D36D400E8D22D /* SnowViewController.h */,
+				07956E5E1E6D36D400E8D22D /* SnowViewController.m */,
+				07956E5F1E6D36D400E8D22D /* SprayViewController.h */,
+				07956E601E6D36D400E8D22D /* SprayViewController.m */,
+				07956E661E6D36F800E8D22D /* FirstViewController.h */,
+				07956E671E6D36F800E8D22D /* FirstViewController.m */,
+			);
+			name = "别人的";
+			sourceTree = "<group>";
+		};
+		07956E311E6D369D00E8D22D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				07956E321E6D369D00E8D22D /* FFRing.png */,
+				07956E331E6D369D00E8D22D /* FFTspark.png */,
+				07956E341E6D369D00E8D22D /* ic_menu_bluepig.png */,
+				07956E351E6D369D00E8D22D /* ic_menu_bluepig2.png */,
+				07956E361E6D369D00E8D22D /* ic_menu_greenpig.png */,
+				07956E371E6D369D00E8D22D /* ic_menu_greenpig2.png */,
+				07956E381E6D369D00E8D22D /* ic_menu_pinkpig.png */,
+				07956E391E6D369D00E8D22D /* ic_menu_pinkpig2.png */,
+				07956E3A1E6D369D00E8D22D /* ic_menu_purplepig.png */,
+				07956E3B1E6D369D00E8D22D /* ic_menu_purplepig2.png */,
+				07956E3C1E6D369D00E8D22D /* ic_menu_yellowpig.png */,
+				07956E3D1E6D369D00E8D22D /* ic_menu_yellowpig2.png */,
+				07956E3E1E6D369D00E8D22D /* leftShoot.png */,
+				07956E3F1E6D369D00E8D22D /* love@2x.png */,
+				07956E401E6D369D00E8D22D /* love@3x.png */,
+				07956E411E6D369D00E8D22D /* rightShoot.png */,
+				07956E421E6D369D00E8D22D /* star.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		07956E691E6D377600E8D22D /* TheResource */ = {
+			isa = PBXGroup;
+			children = (
+				07956E431E6D369D00E8D22D /* UIButton+Bubbling.h */,
+				07956E441E6D369D00E8D22D /* UIButton+Bubbling.m */,
+				07956E311E6D369D00E8D22D /* Images */,
+			);
+			name = TheResource;
 			sourceTree = "<group>";
 		};
 		07C8237F1E67B582006EB6B1 /* HightTableView */ = {
@@ -468,30 +578,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				07030F4C1E4C4F4B00B24248 /* mm.gif in Resources */,
+				07956E4A1E6D369E00E8D22D /* ic_menu_greenpig2.png in Resources */,
 				07030F5B1E4C4FCC00B24248 /* nn-10.tiff in Resources */,
 				073301E81E5D699100A87D52 /* DazStarOutline.png in Resources */,
+				07956E461E6D369D00E8D22D /* FFTspark.png in Resources */,
 				073301E71E5D699100A87D52 /* DazSmoke.png in Resources */,
 				07030F651E4C4FCC00B24248 /* nn-7.tiff in Resources */,
 				073301E41E5D699100A87D52 /* DazFlake.png in Resources */,
 				07030F401E4B08D600B24248 /* Info.plist in Resources */,
+				07956E551E6D369E00E8D22D /* star.png in Resources */,
 				073301E61E5D699100A87D52 /* DazRing.png in Resources */,
+				07956E501E6D369E00E8D22D /* ic_menu_yellowpig2.png in Resources */,
 				07030F621E4C4FCC00B24248 /* nn-4.tiff in Resources */,
 				073301E51E5D699100A87D52 /* DazHeart.png in Resources */,
+				07956E531E6D369E00E8D22D /* love@3x.png in Resources */,
 				8973C9161DF0070E0076BFEE /* LaunchScreen.storyboard in Resources */,
+				07956E4B1E6D369E00E8D22D /* ic_menu_pinkpig.png in Resources */,
 				07030F671E4C4FCC00B24248 /* nn-9.tiff in Resources */,
 				07030F601E4C4FCC00B24248 /* nn-2.tiff in Resources */,
 				07030F5C1E4C4FCC00B24248 /* nn-11.tiff in Resources */,
 				073301E31E5D699100A87D52 /* DazFire.png in Resources */,
+				07956E4E1E6D369E00E8D22D /* ic_menu_purplepig2.png in Resources */,
 				07030F661E4C4FCC00B24248 /* nn-8.tiff in Resources */,
+				07956E4D1E6D369E00E8D22D /* ic_menu_purplepig.png in Resources */,
 				07030F611E4C4FCC00B24248 /* nn-3.tiff in Resources */,
+				07956E451E6D369D00E8D22D /* FFRing.png in Resources */,
+				07956E511E6D369E00E8D22D /* leftShoot.png in Resources */,
+				07956E4F1E6D369E00E8D22D /* ic_menu_yellowpig.png in Resources */,
 				8973C9131DF0070E0076BFEE /* Assets.xcassets in Resources */,
 				07030F5E1E4C4FCC00B24248 /* nn-13.tiff in Resources */,
 				073301E91E5D699100A87D52 /* DazTriangle.png in Resources */,
 				073301C71E5ADA1E00A87D52 /* 02.jpg in Resources */,
+				07956E491E6D369E00E8D22D /* ic_menu_greenpig.png in Resources */,
 				8973C9111DF0070E0076BFEE /* Main.storyboard in Resources */,
+				07956E4C1E6D369E00E8D22D /* ic_menu_pinkpig2.png in Resources */,
 				073301C61E5ADA1E00A87D52 /* 01.jpg in Resources */,
+				07956E541E6D369E00E8D22D /* rightShoot.png in Resources */,
+				07956E481E6D369E00E8D22D /* ic_menu_bluepig2.png in Resources */,
 				07030F641E4C4FCC00B24248 /* nn-6.tiff in Resources */,
 				07030F5F1E4C4FCC00B24248 /* nn-1.tiff in Resources */,
+				07956E471E6D369E00E8D22D /* ic_menu_bluepig.png in Resources */,
+				07956E521E6D369E00E8D22D /* love@2x.png in Resources */,
 				07030F631E4C4FCC00B24248 /* nn-5.tiff in Resources */,
 				07030F5D1E4C4FCC00B24248 /* nn-12.tiff in Resources */,
 			);
@@ -522,23 +649,30 @@
 				07030F461E4B08D600B24248 /* MASViewConstraint.m in Sources */,
 				07030F411E4B08D600B24248 /* MASCompositeConstraint.m in Sources */,
 				07030F471E4B08D600B24248 /* NSArray+MASAdditions.m in Sources */,
+				07956E611E6D36D400E8D22D /* DazViewController.m in Sources */,
 				07C8237E1E67B310006EB6B1 /* HighTableViewController.m in Sources */,
 				8973C90E1DF0070E0076BFEE /* ViewController.m in Sources */,
 				07C8238B1E67E96E006EB6B1 /* OneModel.m in Sources */,
 				8973C90B1DF0070E0076BFEE /* AppDelegate.m in Sources */,
 				07030F441E4B08D600B24248 /* MASLayoutConstraint.m in Sources */,
+				07956E561E6D369E00E8D22D /* UIButton+Bubbling.m in Sources */,
 				073301D91E5D67C500A87D52 /* liziAnimationVController.m in Sources */,
 				8973C9081DF0070E0076BFEE /* main.m in Sources */,
+				07956E631E6D36D400E8D22D /* GiftEffectViewController.m in Sources */,
 				07C823881E67B5C3006EB6B1 /* ThreeCell.m in Sources */,
 				07030F4A1E4B08D600B24248 /* ViewController+MASAdditions.m in Sources */,
 				07C823851E67B5B7006EB6B1 /* TwoCell.m in Sources */,
 				07030F491E4B08D600B24248 /* View+MASAdditions.m in Sources */,
 				07030F451E4B08D600B24248 /* MASViewAttribute.m in Sources */,
+				07956E641E6D36D400E8D22D /* SnowViewController.m in Sources */,
+				07956E621E6D36D400E8D22D /* DropViewController.m in Sources */,
 				07C8238E1E67E9C9006EB6B1 /* TwoModel.m in Sources */,
+				07956E651E6D36D400E8D22D /* SprayViewController.m in Sources */,
 				07030F421E4B08D600B24248 /* MASConstraint.m in Sources */,
 				07C823821E67B5AA006EB6B1 /* OneCell.m in Sources */,
 				07030F6A1E4D6BF600B24248 /* CoreAnimationVController.m in Sources */,
 				07030F431E4B08D600B24248 /* MASConstraintMaker.m in Sources */,
+				07956E681E6D36F800E8D22D /* FirstViewController.m in Sources */,
 				073301C31E5AC61100A87D52 /* CATransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
