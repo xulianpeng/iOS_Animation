@@ -11,6 +11,7 @@
 #import "CoreAnimationVController.h"
 #import "CATransitionViewController.h"
 #import "liziAnimationVController.h"
+#import "HighTableViewController.h"
 @interface ViewController ()
 {
     UIView *parentView;
@@ -42,7 +43,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
-    parentView = [[UIView alloc]initWithFrame:CGRectMake(10, 300, 300, 200)];
+    parentView = [[UIView alloc]initWithFrame:CGRectMake(10, 250, 300, 200)];
     parentView.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:parentView];
     
@@ -161,7 +162,7 @@
         make.left.equalTo(bt);
         make.top.mas_equalTo(bt.mas_bottom).offset(20);
         make.width.mas_equalTo(150);
-        make.height.mas_equalTo(150);
+        make.height.mas_equalTo(100);
         
     }];
 #pragma mark: 分类3 UIActivityIndicatorView动画
@@ -203,6 +204,22 @@
     */
     
 //    [self liziaNIMATION];
+    
+#pragma mark - 高级tableview的效果 动态添加cell
+    
+    UIButton *tableButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:tableButton];
+    [tableButton setTitle:@"table动画入口" forState:UIControlStateNormal];
+    [tableButton addTarget:self action:@selector(jumpToHighTable:) forControlEvents:UIControlEventTouchUpInside];
+    tableButton.backgroundColor = [UIColor greenColor];
+    [tableButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(CATransitionButton.mas_bottom).offset(5);
+        make.left.mas_equalTo(CATransitionButton);
+        make.width.mas_equalTo(100);
+        make.height.mas_equalTo(50);
+        
+        
+    }];
     
 }
 - (void)stopLabel
@@ -423,7 +440,11 @@
     liziAnimationVController *liziVC = [[liziAnimationVController alloc]init];
     [self.navigationController pushViewController:liziVC animated:YES];
 }
-
+- (void)jumpToHighTable:(UIButton *)sender{
+    
+    HighTableViewController *vc = [[HighTableViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

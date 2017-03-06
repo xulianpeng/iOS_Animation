@@ -44,6 +44,12 @@
 		073301E71E5D699100A87D52 /* DazSmoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 073301E01E5D699100A87D52 /* DazSmoke.png */; };
 		073301E81E5D699100A87D52 /* DazStarOutline.png in Resources */ = {isa = PBXBuildFile; fileRef = 073301E11E5D699100A87D52 /* DazStarOutline.png */; };
 		073301E91E5D699100A87D52 /* DazTriangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 073301E21E5D699100A87D52 /* DazTriangle.png */; };
+		07C8237E1E67B310006EB6B1 /* HighTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C8237D1E67B310006EB6B1 /* HighTableViewController.m */; };
+		07C823821E67B5AA006EB6B1 /* OneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C823811E67B5AA006EB6B1 /* OneCell.m */; };
+		07C823851E67B5B7006EB6B1 /* TwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C823841E67B5B7006EB6B1 /* TwoCell.m */; };
+		07C823881E67B5C3006EB6B1 /* ThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C823871E67B5C3006EB6B1 /* ThreeCell.m */; };
+		07C8238B1E67E96E006EB6B1 /* OneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C8238A1E67E96E006EB6B1 /* OneModel.m */; };
+		07C8238E1E67E9C9006EB6B1 /* TwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C8238D1E67E9C9006EB6B1 /* TwoModel.m */; };
 		8973C9081DF0070E0076BFEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8973C9071DF0070E0076BFEE /* main.m */; };
 		8973C90B1DF0070E0076BFEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8973C90A1DF0070E0076BFEE /* AppDelegate.m */; };
 		8973C90E1DF0070E0076BFEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8973C90D1DF0070E0076BFEE /* ViewController.m */; };
@@ -128,6 +134,18 @@
 		073301E01E5D699100A87D52 /* DazSmoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazSmoke.png; sourceTree = "<group>"; };
 		073301E11E5D699100A87D52 /* DazStarOutline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazStarOutline.png; sourceTree = "<group>"; };
 		073301E21E5D699100A87D52 /* DazTriangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazTriangle.png; sourceTree = "<group>"; };
+		07C8237C1E67B310006EB6B1 /* HighTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighTableViewController.h; sourceTree = "<group>"; };
+		07C8237D1E67B310006EB6B1 /* HighTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighTableViewController.m; sourceTree = "<group>"; };
+		07C823801E67B5AA006EB6B1 /* OneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneCell.h; sourceTree = "<group>"; };
+		07C823811E67B5AA006EB6B1 /* OneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneCell.m; sourceTree = "<group>"; };
+		07C823831E67B5B7006EB6B1 /* TwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoCell.h; sourceTree = "<group>"; };
+		07C823841E67B5B7006EB6B1 /* TwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoCell.m; sourceTree = "<group>"; };
+		07C823861E67B5C3006EB6B1 /* ThreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeCell.h; sourceTree = "<group>"; };
+		07C823871E67B5C3006EB6B1 /* ThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeCell.m; sourceTree = "<group>"; };
+		07C823891E67E96E006EB6B1 /* OneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneModel.h; sourceTree = "<group>"; };
+		07C8238A1E67E96E006EB6B1 /* OneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneModel.m; sourceTree = "<group>"; };
+		07C8238C1E67E9C9006EB6B1 /* TwoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoModel.h; sourceTree = "<group>"; };
+		07C8238D1E67E9C9006EB6B1 /* TwoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoModel.m; sourceTree = "<group>"; };
 		8973C9031DF0070E0076BFEE /* iOS_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8973C9071DF0070E0076BFEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8973C9091DF0070E0076BFEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -248,6 +266,25 @@
 			name = "lizi动画雪花 烟花 火焰图片";
 			sourceTree = "<group>";
 		};
+		07C8237F1E67B582006EB6B1 /* HightTableView */ = {
+			isa = PBXGroup;
+			children = (
+				07C8237C1E67B310006EB6B1 /* HighTableViewController.h */,
+				07C8237D1E67B310006EB6B1 /* HighTableViewController.m */,
+				07C823891E67E96E006EB6B1 /* OneModel.h */,
+				07C8238A1E67E96E006EB6B1 /* OneModel.m */,
+				07C8238C1E67E9C9006EB6B1 /* TwoModel.h */,
+				07C8238D1E67E9C9006EB6B1 /* TwoModel.m */,
+				07C823801E67B5AA006EB6B1 /* OneCell.h */,
+				07C823811E67B5AA006EB6B1 /* OneCell.m */,
+				07C823831E67B5B7006EB6B1 /* TwoCell.h */,
+				07C823841E67B5B7006EB6B1 /* TwoCell.m */,
+				07C823861E67B5C3006EB6B1 /* ThreeCell.h */,
+				07C823871E67B5C3006EB6B1 /* ThreeCell.m */,
+			);
+			name = HightTableView;
+			sourceTree = "<group>";
+		};
 		8973C8FA1DF0070E0076BFEE = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +320,7 @@
 				07030F691E4D6BF600B24248 /* CoreAnimationVController.m */,
 				073301C11E5AC61100A87D52 /* CATransitionViewController.h */,
 				073301C21E5AC61100A87D52 /* CATransitionViewController.m */,
+				07C8237F1E67B582006EB6B1 /* HightTableView */,
 				073301DA1E5D67DB00A87D52 /* 粒子动画 */,
 				8973C90F1DF0070E0076BFEE /* Main.storyboard */,
 				8973C9121DF0070E0076BFEE /* Assets.xcassets */,
@@ -383,12 +421,12 @@
 		8973C8FB1DF0070E0076BFEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = xulianpeng;
 				TargetAttributes = {
 					8973C9021DF0070E0076BFEE = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = R7FLL89AQ2;
+						DevelopmentTeam = 5SW94Y3RSA;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -484,15 +522,21 @@
 				07030F461E4B08D600B24248 /* MASViewConstraint.m in Sources */,
 				07030F411E4B08D600B24248 /* MASCompositeConstraint.m in Sources */,
 				07030F471E4B08D600B24248 /* NSArray+MASAdditions.m in Sources */,
+				07C8237E1E67B310006EB6B1 /* HighTableViewController.m in Sources */,
 				8973C90E1DF0070E0076BFEE /* ViewController.m in Sources */,
+				07C8238B1E67E96E006EB6B1 /* OneModel.m in Sources */,
 				8973C90B1DF0070E0076BFEE /* AppDelegate.m in Sources */,
 				07030F441E4B08D600B24248 /* MASLayoutConstraint.m in Sources */,
 				073301D91E5D67C500A87D52 /* liziAnimationVController.m in Sources */,
 				8973C9081DF0070E0076BFEE /* main.m in Sources */,
+				07C823881E67B5C3006EB6B1 /* ThreeCell.m in Sources */,
 				07030F4A1E4B08D600B24248 /* ViewController+MASAdditions.m in Sources */,
+				07C823851E67B5B7006EB6B1 /* TwoCell.m in Sources */,
 				07030F491E4B08D600B24248 /* View+MASAdditions.m in Sources */,
 				07030F451E4B08D600B24248 /* MASViewAttribute.m in Sources */,
+				07C8238E1E67E9C9006EB6B1 /* TwoModel.m in Sources */,
 				07030F421E4B08D600B24248 /* MASConstraint.m in Sources */,
+				07C823821E67B5AA006EB6B1 /* OneCell.m in Sources */,
 				07030F6A1E4D6BF600B24248 /* CoreAnimationVController.m in Sources */,
 				07030F431E4B08D600B24248 /* MASConstraintMaker.m in Sources */,
 				073301C31E5AC61100A87D52 /* CATransitionViewController.m in Sources */,
@@ -568,12 +612,15 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -590,7 +637,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -616,12 +663,15 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -632,7 +682,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -645,14 +695,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = R7FLL89AQ2;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5SW94Y3RSA;
 				INFOPLIST_FILE = iOS_Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "XLP.iOS-Animation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Animation/iOS_Animation-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -661,13 +715,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = R7FLL89AQ2;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5SW94Y3RSA;
 				INFOPLIST_FILE = iOS_Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "XLP.iOS-Animation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iOS_Animation/iOS_Animation-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
