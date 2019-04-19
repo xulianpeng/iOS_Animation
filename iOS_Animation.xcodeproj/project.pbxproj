@@ -74,6 +74,8 @@
 		07C823881E67B5C3006EB6B1 /* ThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C823871E67B5C3006EB6B1 /* ThreeCell.m */; };
 		07C8238B1E67E96E006EB6B1 /* OneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C8238A1E67E96E006EB6B1 /* OneModel.m */; };
 		07C8238E1E67E9C9006EB6B1 /* TwoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C8238D1E67E9C9006EB6B1 /* TwoModel.m */; };
+		892980552249D6CD001A82CC /* Masonry.h in Sources */ = {isa = PBXBuildFile; fileRef = 07030F301E4B08D600B24248 /* Masonry.h */; };
+		89727CDA20DCE67000B18974 /* mmm.png in Resources */ = {isa = PBXBuildFile; fileRef = 89727CD920DCE67000B18974 /* mmm.png */; };
 		8973C9081DF0070E0076BFEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8973C9071DF0070E0076BFEE /* main.m */; };
 		8973C90B1DF0070E0076BFEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8973C90A1DF0070E0076BFEE /* AppDelegate.m */; };
 		8973C90E1DF0070E0076BFEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8973C90D1DF0070E0076BFEE /* ViewController.m */; };
@@ -201,6 +203,7 @@
 		07C8238A1E67E96E006EB6B1 /* OneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneModel.m; sourceTree = "<group>"; };
 		07C8238C1E67E9C9006EB6B1 /* TwoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoModel.h; sourceTree = "<group>"; };
 		07C8238D1E67E9C9006EB6B1 /* TwoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoModel.m; sourceTree = "<group>"; };
+		89727CD920DCE67000B18974 /* mmm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mmm.png; sourceTree = "<group>"; };
 		8973C9031DF0070E0076BFEE /* iOS_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8973C9071DF0070E0076BFEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8973C9091DF0070E0076BFEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -398,6 +401,7 @@
 		8973C8FA1DF0070E0076BFEE = {
 			isa = PBXGroup;
 			children = (
+				89727CD920DCE67000B18974 /* mmm.png */,
 				07030F251E4B08D600B24248 /* Masonry */,
 				8973C9051DF0070E0076BFEE /* iOS_Animation */,
 				8973C91F1DF0070E0076BFEE /* iOS_AnimationTests */,
@@ -595,6 +599,7 @@
 				8973C9161DF0070E0076BFEE /* LaunchScreen.storyboard in Resources */,
 				07956E4B1E6D369E00E8D22D /* ic_menu_pinkpig.png in Resources */,
 				07030F671E4C4FCC00B24248 /* nn-9.tiff in Resources */,
+				89727CDA20DCE67000B18974 /* mmm.png in Resources */,
 				07030F601E4C4FCC00B24248 /* nn-2.tiff in Resources */,
 				07030F5C1E4C4FCC00B24248 /* nn-11.tiff in Resources */,
 				073301E31E5D699100A87D52 /* DazFire.png in Resources */,
@@ -645,6 +650,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892980552249D6CD001A82CC /* Masonry.h in Sources */,
 				07030F481E4B08D600B24248 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				07030F461E4B08D600B24248 /* MASViewConstraint.m in Sources */,
 				07030F411E4B08D600B24248 /* MASCompositeConstraint.m in Sources */,

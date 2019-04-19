@@ -10,45 +10,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iOS_Animation/ViewController.m"
-            timestampString = "502283984.645146"
+            timestampString = "551348253.62465"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "103"
             endingLineNumber = "103"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ViewController viewDidLoad]"
-                  moduleName = "iOS_Animation"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/xulianpeng/Desktop/GitHub/iOS_Animation/iOS_Animation/ViewController.m"
-                  timestampString = "502285421.417773"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "148"
-                  endingLineNumber = "148"
-                  offsetFromSymbolStart = "764">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__29-[ViewController viewDidLoad]_block_invoke"
-                  moduleName = "iOS_Animation"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/xulianpeng/Desktop/GitHub/iOS_Animation/iOS_Animation/ViewController.m"
-                  timestampString = "502285421.439311"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "148"
-                  endingLineNumber = "148"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS_Animation/ViewController.m"
+            timestampString = "551348253.625057"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "448"
+            endingLineNumber = "448"
+            landmarkName = "-jumpToCATransitionAnimation:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -63,7 +63,7 @@
     [bt mas_makeConstraints:^(MASConstraintMaker *make) {
         
         make.left.equalTo(self.view).offset(30);
-        make.top.mas_equalTo(64);
+        make.top.mas_equalTo(100);
         make.width.mas_equalTo(50);
         make.height.mas_equalTo(40);
     }];
@@ -237,6 +237,22 @@
         
         
     }];
+    
+    UIButton * a3DButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.view addSubview:a3DButton];
+    [a3DButton setTitle:@"3D动画翻转" forState:UIControlStateNormal];
+    [a3DButton addTarget:self action:@selector(SHOW3D:) forControlEvents:UIControlEventTouchUpInside];
+    a3DButton.backgroundColor = [UIColor greenColor];
+    [a3DButton setBackgroundImage:[UIImage imageNamed:@"mmm.png"] forState:UIControlStateNormal];
+    [a3DButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.mas_equalTo(tableButton.mas_bottom).offset(5);
+        make.left.mas_equalTo(CATransitionButton);
+        make.width.mas_equalTo(100);
+        make.height.mas_equalTo(50);
+        
+        
+    }];
+    
     
 }
 - (void)stopLabel
@@ -466,6 +482,27 @@
     
     HighTableViewController *vc = [[HighTableViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
+}
+- (void)SHOW3D:(UIButton *)sender{
+    //创建CATransition对象
+    CATransition *animation = [CATransition animation];
+    //设置运动时间
+    animation.duration = 0.5;
+    //设置运动type
+    animation.type = @"cube";
+    animation.subtype = kCATransitionFromBottom;//
+//        animation.autoreverses = YES;
+//        animation.fillMode = kCAFillModeForwards;
+//        animation.repeatCount = 2;
+    //设置运动速度
+    animation.timingFunction = UIViewAnimationOptionCurveEaseInOut;
+    
+    /// 在CATransition动画 加入 试图跳转
+//    CATransitionViewController *vc = [[CATransitionViewController alloc]init];
+//    [self.navigationController pushViewController:vc animated:NO];
+//    [self.navigationController.view.layer addAnimation:animation forKey:@"111"];
+    
+    [sender.layer addAnimation:animation forKey:@"222"];
 }
 
 - (void)didReceiveMemoryWarning {
